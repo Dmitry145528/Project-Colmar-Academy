@@ -12,13 +12,13 @@ html {
 .black {
     opacity: 0.7;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .grey {
     color: gray;
     font-weight: lighter;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 header {
@@ -55,4 +55,33 @@ nav li {
 nav a {
     text-decoration: none;
     color: black;
+}
+
+
+
+/*Section main*/
+
+
+main .content {
+    display: flex;
+    align-items: center;
+    background-color: rgba(212, 212, 212, 0.952);
+}
+
+main img {
+    padding: 2rem 1.5rem;
+    display: flex;
+}
+
+.text {
+    justify-content: center;
+    width: 25rem;
+    height: auto;
+    font-size: 1.5rem;
+}
+
+.button {
+    text-align: center;
+    padding: 0.5rem 0;
+    background-color: gray;
 }

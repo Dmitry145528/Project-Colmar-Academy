@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 .img {
-    padding: 2rem 8rem 2rem 1.5rem;
+    padding: 2rem 1.5rem;
     max-width: 40.625rem;
 }
 
@@ -105,6 +105,11 @@ section img {
 /*Information main*/
 
 
+#Online {
+    display: flex;
+}
+
+
 #Online .text p {
     padding-top: 1.5rem;
 }
@@ -113,13 +118,23 @@ section img {
     padding: 2rem 0;
 }
 
-
 .pic-txt {
     display: flex;
     align-items: center;
 }
 
+.section-left {
+    width: 60%;
+}
+
 .section-right {
-    width: 35%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
     height: auto;
+}
+
+.section-right img {
+    padding: 1rem;
+    width: 35%;
 }

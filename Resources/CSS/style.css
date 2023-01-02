@@ -73,17 +73,19 @@ nav a:hover {
     background-color: rgba(212, 212, 212, 0.952);
 }
 
-#On-campus .img {
+.img {
     padding: 2rem 8rem 2rem 1.5rem;
     max-width: 40.625rem;
 }
 
-main img {
+section img {
     width: 100%;
 }
 
 .text {
+    padding-left: 1.5rem;
     font-size: 1.5rem;
+    color:rgb(73, 73, 73)
 }
 
 .button {
@@ -97,4 +99,16 @@ main img {
 .button:hover {
     transition: all 1s linear 300ms;
     background-color: rgb(199, 130, 3);
+}
+
+
+/*Information main*/
+
+
+#Online .text p {
+    padding-top: 1.5rem;
+}
+
+#Online .text h6 {
+    padding: 2rem 0;
 }

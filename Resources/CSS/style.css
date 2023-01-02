@@ -54,7 +54,12 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: rgb(73, 73, 73);
+}
+
+nav a:hover {
+    color: orange;
+    transition: all 1s linear 200ms;
 }
 
 
@@ -62,24 +67,34 @@ nav a {
 /*Section main*/
 
 
-main .content {
+#On-campus .content {
     display: flex;
     align-items: center;
     background-color: rgba(212, 212, 212, 0.952);
 }
 
+#On-campus .img {
+    padding: 2rem 8rem 2rem 1.5rem;
+    max-width: 40.625rem;
+}
+
 main img {
-    padding: 2rem 1.5rem;
+    width: 100%;
 }
 
 .text {
-    width: 25rem;
-    height: auto;
     font-size: 1.5rem;
 }
 
 .button {
+    color: white;
     text-align: center;
     padding: 0.5rem 0;
-    background-color: gray;
+    background-color: rgb(73, 73, 73);
+    border-radius: 3px;
+}
+
+.button:hover {
+    transition: all 1s linear 300ms;
+    background-color: rgb(199, 130, 3);
 }

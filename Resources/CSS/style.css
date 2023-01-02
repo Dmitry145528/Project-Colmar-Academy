@@ -112,3 +112,14 @@ section img {
 #Online .text h6 {
     padding: 2rem 0;
 }
+
+
+.pic-txt {
+    display: flex;
+    align-items: center;
+}
+
+.section-right {
+    width: 35%;
+    height: auto;
+}

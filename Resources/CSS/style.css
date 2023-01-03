@@ -67,6 +67,7 @@ nav a:hover {
 /*Section main*/
 
 
+
 #On-campus .content {
     display: flex;
     align-items: center;
@@ -107,6 +108,7 @@ section img {
 
 #Online {
     display: flex;
+    padding-bottom: 2rem;
 }
 
 
@@ -115,12 +117,39 @@ section img {
 }
 
 #Online .text h6 {
-    padding: 2rem 0;
+    padding-top: 2rem;
 }
 
 .pic-txt {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.pic-txt:hover {
+    background-color: rgb(221, 221, 221);
+    transition: all 750ms linear 200ms;
+}
+
+.txt {
+    flex-direction: column;
+    color:rgb(73, 73, 73)
+}
+
+.txt p {
+    color: grey;
+    padding: 0.5rem 0;
+}
+
+.txt a {
+    text-decoration: none;
+    color: rgb(102, 149, 250)
+}
+
+.txt a:hover {
+    color:rgb(199, 130, 3);
+    transition: all 750ms linear 200ms;
+    border-bottom: 1px solid orange;
 }
 
 .section-left {
@@ -132,6 +161,8 @@ section img {
     flex-direction: column;
     width: 40%;
     height: auto;
+    padding-top: 1rem;
+    border-left: 1px solid rgb(221, 221, 221);
 }
 
 .section-right img {

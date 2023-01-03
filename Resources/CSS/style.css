@@ -121,9 +121,11 @@ section img {
 }
 
 .pic-txt {
+    background-color: white;
     display: flex;
     align-items: center;
     border-bottom: 1px solid rgb(221, 221, 221);
+    width:100%;
 }
 
 .pic-txt:hover {
@@ -132,6 +134,7 @@ section img {
 }
 
 .txt {
+    padding-left: 1rem;
     flex-direction: column;
     color:rgb(73, 73, 73)
 }
@@ -160,12 +163,72 @@ section img {
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: auto;
     padding-top: 1rem;
     border-left: 1px solid rgb(221, 221, 221);
 }
 
 .section-right img {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
     width: 35%;
+}
+
+
+
+/*Start learning*/
+
+
+#Start-learning img {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 20%);
+}
+
+
+#Start-learning {
+    background-color: rgb(236, 236, 236);
+}
+
+
+#Start-learning .pic-txt {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Start-learning h1 {
+    font-size: 2.5rem;
+    color: rgb(85, 85, 85);
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#Start-learning .pic-txt {
+    margin: 1rem;
+}
+
+#Start-learning .txt {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    flex-direction: column;
+    color:rgb(73, 73, 73)
+}
+
+#Start-learning .txt p {
+    color: grey;
+    padding-top: 1rem;
+    padding-right: 4.5rem;
+}
+
+.img-container {
+    display: flex;
+    padding: 2rem 3.5rem 1rem 3.5rem;
+    flex-direction: column;
+}
+
+.upper-contain {
+    display: flex;
+}
+
+.lower-contain {
+    display: flex;
 }

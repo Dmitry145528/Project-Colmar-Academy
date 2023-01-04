@@ -261,3 +261,20 @@ section img {
     border-bottom: 1px solid rgb(221, 221, 221);
 }
 
+
+
+/*Footer section*/
+
+.text-foot {
+    display: flex;
+    padding: 1rem 1.5rem 4rem 1.5rem;
+    justify-content: space-between;
+}
+
+.text-foot-2 {
+    display: flex;
+}
+
+.text-foot-2 p {
+    padding-left: 1rem;
+}

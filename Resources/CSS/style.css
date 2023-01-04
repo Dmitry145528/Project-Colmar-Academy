@@ -35,6 +35,10 @@ video {
     font-size: 1.2rem;
 }
 
+.mobile {
+    display: none;
+}
+
 header {
     display: flex;
     height: 4rem;
@@ -76,6 +80,21 @@ nav a:hover {
     transition: all 1s linear 200ms;
 }
 
+/*Mobile header*/
+
+@media only screen and (max-width: 850px) {
+
+    header .content {
+        display: none;
+    }
+
+    header .desktop {
+        display: none;
+    }
+
+}
+
+
 
 
 /*Section main*/
@@ -99,6 +118,7 @@ section img {
 
 .text {
     padding-left: 1.5rem;
+    padding-right: 5rem;
     font-size: 1.5rem;
     color:rgb(73, 73, 73)
 }

@@ -99,7 +99,7 @@ nav a:hover {
         display: none;
     }
 
-    header .mobile {
+    .mobile {
         display: flex;
     }
 
@@ -128,10 +128,14 @@ section img {
 }
 
 .text {
-    padding-left: 1.5rem;
-    padding-right: 5rem;
+    padding: 0 5rem;
     font-size: 1.5rem;
     color:rgb(73, 73, 73)
+}
+
+.text h4 {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
 }
 
 .button {
@@ -145,6 +149,22 @@ section img {
 .button:hover {
     transition: all 1s linear 300ms;
     background-color: rgb(199, 130, 3);
+}
+
+/*mobile version main*/
+
+@media only screen and (max-width: 850px) {
+    #On-campus .content {
+        flex-direction: column;
+    }
+
+    .img {
+        padding: 0;
+    }
+
+    .text {
+        padding: 2rem 1rem;
+    }
 }
 
 

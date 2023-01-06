@@ -260,12 +260,12 @@ section img {
     .section-mobile {
         display: flex;
         flex-direction: column;
-        padding: 1rem 1rem 2rem 1rem;
+        padding: 1rem 1rem 0 1rem;
         background-color: white;
     }
 
     .txt {
-        padding: 4rem 1rem;
+        padding: 2rem 1rem;
     }
 
     .pic-txt-mobile:hover {
@@ -326,6 +326,50 @@ section img {
 .lower-contain {
     display: flex;
 }
+
+#Start-learning-mobile {
+    display: none;
+}
+
+
+/*Start Learning mobile*/
+
+
+@media only screen and (max-width: 850px) {
+    #Start-learning {
+        display: none;
+    }
+
+    #Start-learning-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+    }
+
+    .container-mobile {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .txt-mobile {
+        padding: 1rem 0 1rem 1rem;
+        margin: 0 2rem 0.5rem 2rem;
+        background-color: rgb(219, 219, 219);
+    }
+
+    .txt-mobile:hover {
+        background-color: rgb(221, 221, 221);
+        transition: all 750ms linear 200ms;
+        transform: scale(1.03);
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
+    }
+
+    .txt-mobile h3 {
+        color: rgb(85, 85, 85);
+    }
+}
+
 
 
 /*Thesis exhibit*/

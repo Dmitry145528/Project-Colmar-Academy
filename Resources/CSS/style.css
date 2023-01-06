@@ -161,6 +161,7 @@ section img {
 
     .img {
         padding: 0;
+        max-width: 100%;
     }
 
     .text {
@@ -243,7 +244,7 @@ section img {
     width: 35%;
 }
 
-.mobile-in-main {
+.section-mobile {
     display: none;
 }
 
@@ -255,10 +256,28 @@ section img {
     #Online {
         display: none;
     }
+
+    .section-mobile {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 1rem 2rem 1rem;
+        background-color: white;
+    }
+
+    .txt {
+        padding: 4rem 1rem;
+    }
+
+    .pic-txt-mobile:hover {
+        background-color: rgb(221, 221, 221);
+        transition: all 750ms linear 200ms;
+        transform: scale(1.03);
+        box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%);
+    }
+
+
+
 }
-
-
-
 
 
 /*Start learning*/

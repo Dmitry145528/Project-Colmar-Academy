@@ -396,7 +396,25 @@ section img {
 
 
 
+/*Thesis exhibit mobile*/
+
+@media only screen and (max-width: 850px) {
+    #Thesis-exhibit .content {
+        display: none;
+    }
+
+     video {
+        margin: 0;
+        margin-top: 1rem;
+        width: 100%
+    }
+
+}
+
+
+
 /*Footer section*/
+
 
 .text-foot {
     display: flex;

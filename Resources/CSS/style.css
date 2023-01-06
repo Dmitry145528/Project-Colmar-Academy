@@ -128,7 +128,8 @@ section img {
 }
 
 .text {
-    padding: 0 5rem;
+    padding-left: 1.5rem;
+    padding-right: 5rem;
     font-size: 1.5rem;
     color:rgb(73, 73, 73)
 }
@@ -241,6 +242,22 @@ section img {
     padding-left: 1rem;
     width: 35%;
 }
+
+.mobile-in-main {
+    display: none;
+}
+
+
+/*mobile version information main*/
+
+
+@media only screen and (max-width: 850px) {
+    #Online {
+        display: none;
+    }
+}
+
+
 
 
 

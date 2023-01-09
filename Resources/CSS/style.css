@@ -437,3 +437,19 @@ section img {
 .text-foot-2 p {
     padding-left: 1rem;
 }
+
+
+/*Footer section mobile*/
+
+@media only screen and (max-width: 850px) {
+    .text-foot-2 {
+        display: none;
+    }
+    
+    .text-foot {
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+
+}

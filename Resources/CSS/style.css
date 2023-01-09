@@ -45,7 +45,7 @@ video {
     font-size: 1.2rem;
 }
 
-.mobile {
+header .mobile {
     display: none;
 }
 
@@ -99,10 +99,21 @@ nav a:hover {
         display: none;
     }
 
-    .mobile {
-        display: flex;
+    header {
+        display: block;
+        height: 3rem;
+    }
+    
+    header .mobile {
+        display: block;
     }
 
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.5rem;
+    }
 
 }
 

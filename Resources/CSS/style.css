@@ -394,6 +394,10 @@ section img {
     background-color: white;
 }
 
+.videos video {
+    display: none;
+}
+
 
 
 /*Thesis exhibit mobile*/
@@ -403,10 +407,14 @@ section img {
         display: none;
     }
 
-     video {
+    .videos video {
+        display: flex;
+        width: 100%;
         margin: 0;
-        margin-top: 1rem;
-        width: 100%
+    }
+
+    #Thesis-exhibit h1 {
+        padding-bottom: 1rem;
     }
 
 }
